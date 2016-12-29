@@ -17,11 +17,11 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 
 			// Build message to reply back
-			if($text == "1+1"){
+			if($text == "ชื่ออะไรครับ"){
 			$messages = [
-				 "type" => "sticker",
-				  "packageId" => "1",
-				  "stickerId" => "1"
+				"type"=> "image",
+    				"originalContentUrl" => "http://clinic.matthailand.com/user3.jpg",
+    				"previewImageUrl"=> "http://clinic.matthailand.com/user3.jpg"
 			];}
 
 			// Make a POST Request to Messaging API to reply to sender
