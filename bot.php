@@ -19,8 +19,6 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			
 			$messages = [
-				'type' => 'text',
-				'text' => 'Hello, world',
 				'type' => 'image',
 				'originalContentUrl' => 'http://matthailand.com/clinic/img/ico_logo.png',
 				'previewImageUrl' => 'http://matthailand.com/clinic/img/ico_logo.png'
