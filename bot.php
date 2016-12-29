@@ -21,6 +21,10 @@ if (!is_null($events['events'])) {
 			$messages = [
 				'type' => 'text',
 				'text' => 'Hello, world'
+			],[
+				'type' => 'image',
+				'originalContentUrl' => 'https://scontent.fbkk2-2.fna.fbcdn.net/v/t1.0-9/15780827_10208479621532807_8092597677472327998_n.jpg?oh=b24ab20b4bf8d4f8547d9c9ae1956f2e&oe=58E3965E'
+				'previewImageUrl' => 'https://scontent.fbkk2-2.fna.fbcdn.net/v/t1.0-9/15780827_10208479621532807_8092597677472327998_n.jpg?oh=b24ab20b4bf8d4f8547d9c9ae1956f2e&oe=58E3965E'
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
