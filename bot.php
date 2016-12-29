@@ -20,8 +20,8 @@ if (!is_null($events['events'])) {
 			
 			$messages = [
 				'type' => 'image',
-				'originalContentUrl' => 'http://matthailand.com/clinic/img/ico_logo.png',
-				'previewImageUrl' => 'http://matthailand.com/clinic/img/ico_logo.png'
+				'originalContentUrl' => 'http://clinic.matthailand.com/user3.jpg',
+				'previewImageUrl' => 'http://clinic.matthailand.com/user3.jpg'
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
