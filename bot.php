@@ -20,8 +20,8 @@ if (!is_null($events['events'])) {
 			if($text == "ชื่ออะไรครับ"){
 			$messages = [
 				"type"=> "image",
-    				"originalContentUrl" => "http://clinic.matthailand.com/user3.jpg",
-    				"previewImageUrl"=> "http://clinic.matthailand.com/user3.jpg"
+    				"originalContentUrl" => "https://iq-solution-bot.herokuapp.com/user3.jpg",
+    				"previewImageUrl"=> "https://iq-solution-bot.herokuapp.com/user3.jpg"
 			];}
 
 			// Make a POST Request to Messaging API to reply to sender
