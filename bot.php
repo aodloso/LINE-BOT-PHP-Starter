@@ -23,6 +23,16 @@ if (!is_null($events['events'])) {
     				"originalContentUrl" => "https://iq-solution-bot.herokuapp.com/user3.jpg",
     				"previewImageUrl"=> "https://iq-solution-bot.herokuapp.com/user3.jpg"
 			];}
+			if($text == "1+1"){
+			$messages = [
+				"type" => "text",
+    				"text" => "ง่าวแต้ 1+1 ก็ไม่รู้เรื่อง"
+			];}
+			if($text == "IQ"){
+			$messages = [
+				"type" => "text",
+    				"text" => "ลูกพ่อออดแม่แอมมี่"
+			];}
 
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';
