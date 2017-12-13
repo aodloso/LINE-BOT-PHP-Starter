@@ -33,6 +33,11 @@ if (!is_null($events['events'])) {
 				"type" => "text",
     				"text" => "ลูกพ่อออดแม่แอมมี่"
 			];}
+			if($text == "BG2017#travel#2000"){
+			$messages = [
+				"type" => "text",
+    				"text" => "Budget ใช้ได้"
+			];}
 
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';
