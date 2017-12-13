@@ -28,7 +28,7 @@ if (!is_null($events['events'])) {
 				"type" => "text",
     				"text" => "ง่าวแต้ 1+1 ก็ไม่รู้เรื่อง"
 			];}
-			if($text == "IQ"){
+			if($text === "IQ"){
 			$messages = [
 				"type" => "text",
     				"text" => "ลูกพ่อออดแม่แอมมี่"
