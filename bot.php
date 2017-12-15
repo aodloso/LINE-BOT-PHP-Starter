@@ -1,4 +1,17 @@
 <?php
+define("serverName","1.179.206.170");
+define("userName","sa");
+define("userPassword","P@ssw0rd");
+define("dbName","NAV2017");
+
+ini_set('display_errors', 1);
+error_reporting(~0);
+	
+$connectionInfo = array("Database"=>dbName, "UID"=>userName, "PWD"=>userPassword, "MultipleActiveResultSets"=>true);
+$conWeb = sqlsrv_connect( serverName, $connectionInfo);
+if($conWeb){
+echo "connect";
+}
 $access_token = 'w6xXZ8b65DEfUrmLLxKf/dFI1AwSlF66fByVVIe2OO7/NWq925L8ISa5E+yQ1AB+YnBOcWJ55BBAlNAmdG9CYbUhybnVQomXsYv/7CfQJInYMqPCBIRr2R9zuObBUkZBWoJac9Kcex9ToaV9qV0pdAdB04t89/1O/w1cDnyilFU=';
 
 // Get POST body content
